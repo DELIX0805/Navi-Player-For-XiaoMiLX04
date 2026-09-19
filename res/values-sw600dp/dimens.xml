@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 大屏（>=600dp 最短边，如平板）：整体放大留白，保持同一节奏比例 -->
+    <dimen name="space_screen_h">40dp</dimen>
+    <dimen name="space_screen_top">20dp</dimen>
+    <dimen name="space_screen_bottom">24dp</dimen>
+    <dimen name="space_block">18dp</dimen>
+    <dimen name="space_ctl">16dp</dimen>
+    <dimen name="space_item">12dp</dimen>
+
+    <dimen name="topbar_height">40dp</dimen>
+    <dimen name="topbar_logo">16dp</dimen>
+
+    <dimen name="cover_size">200dp</dimen>
+    <dimen name="cover_gap">28dp</dimen>
+    <dimen name="meta_gap">16dp</dimen>
+    <dimen name="meta_gap_sm">8dp</dimen>
+    <dimen name="lyric_pad">16dp</dimen>
+
+    <dimen name="seek_row_height">28dp</dimen>
+    <dimen name="ctl_row_height">56dp</dimen>
+    <dimen name="btn_prev_size">48dp</dimen>
+    <dimen name="btn_play_size">56dp</dimen>
+    <dimen name="mode_height">40dp</dimen>
+    <dimen name="mode_pad">18dp</dimen>
+    <dimen name="time_gap">16dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距节奏：4dp 基准网格 -->
+    <!-- 屏幕安全边距 -->
+    <dimen name="space_screen_h">20dp</dimen>
+    <dimen name="space_screen_top">10dp</dimen>
+    <dimen name="space_screen_bottom">12dp</dimen>
+    <!-- 区块之间（顶栏/主体/底栏） -->
+    <dimen name="space_block">10dp</dimen>
+    <!-- 控件之间 -->
+    <dimen name="space_ctl">10dp</dimen>
+    <dimen name="space_item">8dp</dimen>
+
+    <!-- 顶栏 -->
+    <dimen name="topbar_height">30dp</dimen>
+    <dimen name="topbar_logo">16dp</dimen>
+
+    <!-- 主体 -->
+    <dimen name="cover_size">116dp</dimen>
+    <dimen name="cover_gap">16dp</dimen>
+    <dimen name="meta_gap">10dp</dimen>
+    <dimen name="meta_gap_sm">6dp</dimen>
+    <dimen name="lyric_pad">8dp</dimen>
+
+    <!-- 底部控制区 -->
+    <dimen name="seek_row_height">24dp</dimen>
+    <dimen name="ctl_row_height">48dp</dimen>
+    <dimen name="btn_prev_size">42dp</dimen>
+    <dimen name="btn_play_size">48dp</dimen>
+    <dimen name="mode_height">32dp</dimen>
+    <dimen name="mode_pad">14dp</dimen>
+    <dimen name="time_gap">12dp</dimen>
+
+    <!-- 底部状态条：左=格式/码率，右=服务器状态/延迟 -->
+    <dimen name="meta_text">11sp</dimen>
+    <dimen name="badge_text">10sp</dimen>
+    <dimen name="badge_pad_h">5dp</dimen>
+    <dimen name="badge_pad_v">1dp</dimen>
+    <dimen name="dot_size">7dp</dimen>
+    <dimen name="dot_gap">5dp</dimen>
+</resources>

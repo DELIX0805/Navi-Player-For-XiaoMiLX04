@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  输入框背景。
+  DialogTheme 的父主题是 Holo 之前的 @android:style/Theme.Black，
+  它的 editTextBackground 是浅色的 editbox_background(#F2F2F2)，
+  而应用要求文字一律纯白 —— 实测白字压浅底只有 1.12:1，几乎不可见。
+  这里换成深色实底 + 描边：白字对比度约 17:1。
+  聚焦时描边转纯白并加粗，替代原主题的橙色高亮（橙色已在纯白化改造中废弃）。
+  focused 必须排在默认项之前，否则不生效。
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/panel" />
+            <stroke android:width="2dp" android:color="@color/input_line_on" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/panel" />
+            <stroke android:width="1dp" android:color="@color/input_line" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</selector>

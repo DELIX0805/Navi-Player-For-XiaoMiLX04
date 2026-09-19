@@ -1,0 +1,25 @@
+# 构建产物
+build/
+*.apk
+*.dex
+*.idsig
+
+# 签名密钥（自签测试密钥，不进版本库；首次构建会自动生成，见 README）
+*.jks
+*.keystore
+
+# 本机工具链配置（sdk.dir / jdk.dir，clone 后自行创建）
+local.properties
+
+# Python
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+build_log*.txt
+run_log*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db

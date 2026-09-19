@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主界面背景已换成图片 res/drawable-nodpi/bg_main.png；
+         该色仅剩冷启动时窗口打底用（避免启动瞬间闪白） -->
+    <color name="bg">#FF0E1014</color>
+    <!-- 低对比度屏不再用橙色点缀，统一纯白 -->
+    <color name="accent">#FFFFFFFF</color>
+
+    <!-- 全部文字一律纯白，禁止用 alpha 做层级 -->
+    <color name="text_main">#FFFFFFFF</color>
+    <color name="text_sub">#FFFFFFFF</color>
+    <color name="text_dim">#FFFFFFFF</color>
+
+    <!-- 进度槽：背景换成图片后，槽要比背景暗一档才看得清（实色，不用半透明） -->
+    <color name="track">#FF0F1115</color>
+    <color name="panel">#FF191D24</color>
+    <!-- 输入框/对话框按钮的描边（实色，白字对比度约 17:1） -->
+    <color name="input_line">#FF454B55</color>
+    <color name="input_line_on">#FFFFFFFF</color>
+</resources>

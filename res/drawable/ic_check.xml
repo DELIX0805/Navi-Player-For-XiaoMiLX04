@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 对勾。ROM 主题给的是绿色勾，与本应用「文字与图标一律纯白」的约定冲突，改纯白。 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/text_main"
+        android:pathData="M9.6,16.2 L5.4,12 L4,13.4 L9.6,19 L20,8.6 L18.6,7.2 Z" />
+</vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navi 播放器</string>
+    <string name="mode_order">顺序播放</string>
+    <string name="mode_shuffle">随机播放</string>
+    <string name="idle">未开始播放</string>
+    <string name="err_connect">连接服务器失败</string>
+    <string name="setup_title">连接 Navidrome</string>
+    <string name="hint_server">服务器地址，如 http://192.168.1.10:4533</string>
+    <string name="hint_user">用户名</string>
+    <string name="hint_pass">密码</string>
+    <string name="hint_pass_keep">新密码（留空表示不修改）</string>
+    <string name="btn_save">保存并连接</string>
+    <string name="btn_cancel">取消</string>
+    <string name="err_url">地址需以 http:// 或 https:// 开头</string>
+    <string name="err_user">用户名不能为空</string>
+    <string name="saved">已保存</string>
+    <string name="tip_setup">长按顶栏可重新配置服务器</string>
+    <string name="no_lyric">暂无歌词</string>
+    <string name="lrc_loading">歌词加载中…</string>
+    <!-- 服务器状态：未配置/未连上服务用「未连接」，探测失败用「离线」 -->
+    <string name="srv_none">未连接</string>
+    <string name="srv_off">离线</string>
+</resources>

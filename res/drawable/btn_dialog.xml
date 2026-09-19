@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  对话框按钮背景。
+  同样是 Theme.Black 遗留问题：默认按钮底是浅灰 #CCCCCC，
+  与强制纯白的按钮文字对比度仅 1.61:1，按钮文字基本读不出来。
+  改成深色实底 + 描边（白字约 17:1），按下时略微提亮做反馈。
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF2E353F" />
+            <stroke android:width="1dp" android:color="#FF5A6169" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF1B2028" />
+            <stroke android:width="1dp" android:color="@color/input_line" />
+            <corners android:radius="4dp" />
+        </shape>
+    </item>
+</selector>

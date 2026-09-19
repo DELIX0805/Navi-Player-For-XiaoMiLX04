@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 格式标签：白底 + 深字，与播放按钮同一套「白块深图标」配色。
+     低对比度屏上，纯白实块是最容易被一眼认出的形状，用来强调文件格式。 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFFFFFF" />
+    <corners android:radius="3dp" />
+</shape>

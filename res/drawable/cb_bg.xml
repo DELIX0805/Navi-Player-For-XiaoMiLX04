@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 复选框状态：未选 = 纯白描边空框，已选 = 白框 + 白勾（替代 ROM 的绿色勾） -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/cb_check" />
+    <item android:drawable="@drawable/cb_box" />
+</selector>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <!-- 覆盖各种状态（默认/选中/禁用/提示）的文字色，一律纯白 -->
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textColorSecondary">@color/text_main</item>
+        <item name="android:textColorTertiary">@color/text_main</item>
+        <item name="android:textColorPrimaryInverse">@color/text_main</item>
+        <item name="android:textColorSecondaryInverse">@color/text_main</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/text_main</item>
+        <item name="android:textColorPrimaryNoDisable">@color/text_main</item>
+        <item name="android:textColorSecondaryNoDisable">@color/text_main</item>
+        <item name="android:textColorHint">@color/text_main</item>
+        <item name="android:textColorHighlight">#FF3A5A8C</item>
+        <item name="android:editTextColor">@color/text_main</item>
+    </style>
+
+    <!-- 对话框（首次配置 / 歌词微调）：标题、正文、输入框、按钮全部纯白 -->
+    <style name="DialogTheme" parent="@android:style/Theme.Black">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorAccent">@color/text_main</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textColorSecondary">@color/text_main</item>
+        <item name="android:textColorTertiary">@color/text_main</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/text_main</item>
+        <item name="android:textColorHint">@color/text_main</item>
+        <item name="android:editTextColor">@color/text_main</item>
+        <item name="android:textColorAlertDialogListItem">@color/text_main</item>
+        <item name="android:textColorHighlight">#FF3A5A8C</item>
+    </style>
+</resources>
