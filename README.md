@@ -1,5 +1,7 @@
 # NaviPlayer · 小米小爱触屏音箱 LX04 的 Navidrome 播放器
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 一个为**低对比度小屏**（800×480、240dpi、Android 8.1、armeabi-v7a 纯 32 位）极致取舍的极简
 局域网音乐播放器：连接 [Navidrome](https://www.navidrome.org)（兼容 Subsonic API），
 只做「封面 + 歌词 + 上一曲/下一曲 + 随机/顺序」这一件事。
@@ -111,4 +113,6 @@ java  -cp build/obj LrcTest
 
 ## 许可证
 
-尚未指定。个人使用与修改随意；如需引用代码请先开 issue 联系。
+[MIT](LICENSE) © 2026 DELIX0805
+
+可自由使用、修改、分发与商用，只需保留版权与许可声明；软件按「原样」提供，不含任何担保。
